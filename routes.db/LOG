@@ -282,3 +282,21 @@
 11:48:39.423386 table@remove removed @46
 11:48:39.423422 table@remove removed @43
 11:48:39.423451 table@remove removed @42
+=============== Sep 3, 2024 (CST) ===============
+21:18:08.809852 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:18:08.812576 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:18:08.812585 db@open opening
+21:18:08.812619 journal@recovery F·1
+21:18:08.813902 journal@recovery recovering @63
+21:18:08.814165 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:18:08.818628 db@janitor F·3 G·0
+21:18:08.818658 db@open done T·6.058993ms
+=============== Sep 3, 2024 (CST) ===============
+21:43:02.900348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:43:02.903474 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:43:02.903486 db@open opening
+21:43:02.903526 journal@recovery F·1
+21:43:02.907082 journal@recovery recovering @66
+21:43:02.908374 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:43:02.914340 db@janitor F·3 G·0
+21:43:02.914381 db@open done T·10.883539ms
