@@ -347,3 +347,11 @@
 05:01:42.047585 version@stat F·[2 1] S·2KiB[1KiB 1KiB] Sc·[0.50 0.00]
 05:01:42.051765 db@janitor F·5 G·0
 05:01:42.051789 db@open done T·6.001781ms
+=============== Oct 31, 2024 (CST) ===============
+00:32:11.989305 table@compaction L0·2 -> L1·1 S·2KiB Q·77
+00:32:12.002208 table@build created L1@82 N·33 S·1KiB "ani..dex,v18":"wiki,v40"
+00:32:12.002399 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+00:32:12.003698 table@compaction committed F-2 S-1KiB Ke·0 D·4 T·5.126346ms
+00:32:12.003751 table@remove removed @77
+00:32:12.003783 table@remove removed @70
+00:32:12.003804 table@remove removed @65
