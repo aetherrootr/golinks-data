@@ -420,3 +420,11 @@
 23:04:15.135541 version@stat F·[2 1] S·2KiB[571B 1KiB] Sc·[0.50 0.00]
 23:04:15.139973 db@janitor F·5 G·0
 23:04:15.140004 db@open done T·8.883099ms
+=============== Dec 31, 2024 (CST) ===============
+00:45:27.398913 table@compaction L0·2 -> L1·1 S·2KiB Q·84
+00:45:27.413447 table@build created L1@99 N·35 S·1KiB "alist,v75":"wiki,v40"
+00:45:27.413495 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+00:45:27.415235 table@compaction committed F-2 S-431B Ke·0 D·4 T·15.254449ms
+00:45:27.415826 table@remove removed @96
+00:45:27.415853 table@remove removed @83
+00:45:27.415872 table@remove removed @82
