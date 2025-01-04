@@ -438,3 +438,20 @@
 05:01:54.632863 version@stat F·[1 1] S·2KiB[361B 1KiB] Sc·[0.25 0.00]
 05:01:54.637019 db@janitor F·4 G·0
 05:01:54.637049 db@open done T·7.973514ms
+=============== Jan 4, 2025 (CST) ===============
+00:26:10.664696 table@compaction L0·1 -> L1·1 S·2KiB Q·90
+00:26:10.669445 table@build created L1@103 N·38 S·1KiB "alist,v84":"wiki,v40"
+00:26:10.670100 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+00:26:10.672018 table@compaction committed F-1 S-221B Ke·0 D·1 T·5.740109ms
+00:26:10.672233 table@remove removed @100
+00:26:10.672257 table@remove removed @99
+=============== Jan 4, 2025 (CST) ===============
+03:20:42.969559 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:20:42.971287 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+03:20:42.971299 db@open opening
+03:20:42.971333 journal@recovery F·1
+03:20:42.972849 journal@recovery recovering @101
+03:20:42.974530 memdb@flush created L0@104 N·5 S·321B "clash,v90":"rou..uci,v88"
+03:20:42.974739 version@stat F·[1 1] S·2KiB[321B 1KiB] Sc·[0.25 0.00]
+03:20:42.978756 db@janitor F·4 G·0
+03:20:42.978791 db@open done T·7.483689ms
