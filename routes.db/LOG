@@ -664,3 +664,23 @@
 05:02:13.873945 version@stat F·[3 1] S·2KiB[1KiB 1KiB] Sc·[0.75 0.00]
 05:02:13.877896 db@janitor F·6 G·0
 05:02:13.877919 db@open done T·5.821734ms
+=============== Apr 29, 2025 (CST) ===============
+22:04:30.923356 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:04:30.926410 version@stat F·[3 1] S·2KiB[1KiB 1KiB] Sc·[0.75 0.00]
+22:04:30.926421 db@open opening
+22:04:30.926462 journal@recovery F·1
+22:04:30.927716 journal@recovery recovering @153
+22:04:30.929754 memdb@flush created L0@155 N·1 S·151B "ali..doc,v98":"ali..doc,v98"
+22:04:30.929883 version@stat F·[4 1] S·3KiB[1KiB 1KiB] Sc·[1.00 0.00]
+22:04:30.933394 db@janitor F·7 G·0
+22:04:30.933412 db@open done T·6.984971ms
+22:04:30.933486 table@compaction expanding L0+L1 (F·1 S·151B)+(F·1 S·1KiB) -> (F·4 S·1KiB)+(F·1 S·1KiB)
+22:04:30.933503 table@compaction L0·4 -> L1·1 S·3KiB Q·99
+22:04:30.936091 table@build created L1@158 N·41 S·2KiB "alist,v84":"wiki,v40"
+22:04:30.936115 version@stat F·[0 1] S·2KiB[0B 2KiB] Sc·[0.00 0.00]
+22:04:30.937241 table@compaction committed F-4 S-1KiB Ke·0 D·7 T·3.720877ms
+22:04:30.937282 table@remove removed @155
+22:04:30.937304 table@remove removed @110
+22:04:30.937325 table@remove removed @107
+22:04:30.937436 table@remove removed @104
+22:04:30.937457 table@remove removed @103
