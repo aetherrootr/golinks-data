@@ -749,3 +749,13 @@
 21:26:58.971567 version@stat F·[0 1] S·2KiB[0B 2KiB] Sc·[0.00 0.00]
 21:26:58.986752 db@janitor F·3 G·0
 21:26:58.986777 db@open done T·28.017847ms
+=============== May 10, 2025 (CST) ===============
+02:26:53.103426 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:26:53.106122 version@stat F·[0 1] S·2KiB[0B 2KiB] Sc·[0.00 0.00]
+02:26:53.106133 db@open opening
+02:26:53.106190 journal@recovery F·1
+02:26:53.114516 journal@recovery recovering @172
+02:26:53.120612 memdb@flush created L0@174 N·6 S·831B "k8s..ard,v105":"sub,v101"
+02:26:53.120795 version@stat F·[1 1] S·2KiB[831B 2KiB] Sc·[0.25 0.00]
+02:26:53.135585 db@janitor F·4 G·0
+02:26:53.135614 db@open done T·29.473272ms
